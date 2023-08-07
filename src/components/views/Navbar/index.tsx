@@ -53,11 +53,12 @@ const Navbar = () => {
                 <div onClick={() => setNavbarOpen(!isNavbarOpen)}>
                     {isNavbarOpen ?
                         <div className="flex lg:hidden">
-                            <GiHamburgerMenu size={29} />
+                            <IoMdClose size={25} />
                         </div>
                         :
                         <div className="flex lg:hidden">
-                            <IoMdClose size={25} />
+                            <GiHamburgerMenu size={29} />
+                            
                         </div>
                     }
                 </div>
