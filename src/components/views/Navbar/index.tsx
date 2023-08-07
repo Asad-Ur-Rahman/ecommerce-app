@@ -4,9 +4,9 @@ import Link from "next/link"
 import { BiSearch } from 'react-icons/bi';
 import { BsCart2 } from 'react-icons/bs';
 import { HiOutlineChevronDown } from "react-icons/hi"
-import { GiHamburgerMenu } from 'react-icons/gi';
-import { IoMdClose } from 'react-icons/io';
+
 import DropDown from "./subComponents/DropDown";
+import MobileNavbar from "./subComponents/MobileNavbar";
 
 const Navbar = () => {
     return (
@@ -43,12 +43,7 @@ const Navbar = () => {
                     <BsCart2 size={24} />
                 </div>
             </div>
-            <div className="flex lg:hidden">
-                <GiHamburgerMenu size={25}/>
-            </div>
-            <div className="flex lg:hidden">
-                <IoMdClose size={25}/>
-            </div>
+            <MobileNavbar />
         </div>
     )
 }
