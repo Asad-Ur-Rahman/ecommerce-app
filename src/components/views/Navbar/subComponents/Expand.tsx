@@ -17,7 +17,7 @@ const Expand: FC<{ item: NavbarItemType, index: number }> = ({ item, index }) =>
         }, 100);
     }
     return (
-        <li className={`${isExpended ? 'h-48' : 'h-12'} list-none duration-300`}>
+        <li className={`${isExpended ? 'h-50' : 'h-12'} list-none duration-300`}>
             <div className="py-2 px-3 flex items-center justify-between rounded-md duration-300 hover:bg-purple-600" onClick={handleExpand}>
 
                 <Link href={item.href}>
