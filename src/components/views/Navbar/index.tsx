@@ -1,3 +1,8 @@
+"use client"
+
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { IoMdClose } from 'react-icons/io';
+import { useState } from 'react';
 import { NavbarArray, NavbarItemType } from "@/components/utils/NavbarArrayAndTypes"
 import Image from "next/image"
 import Link from "next/link"
@@ -9,6 +14,7 @@ import DropDown from "./subComponents/DropDown";
 import MobileNavbar from "./subComponents/MobileNavbar";
 
 const Navbar = () => {
+    const [isNavbarOpen, setNavbarOpen] = useState<boolean>(false)
     return (
         <div className="py-6 flex justify-between items-center space-x-12">
             <div className="w-36 flex-shrink-0">
@@ -42,6 +48,17 @@ const Navbar = () => {
                     <div className="w-4 h-4 absolute top-1 right-2 bg-red-400 text-sm font-light rounded-full flex justify-center items-center">5</div>
                     <BsCart2 size={24} />
                 </div>
+            </div>
+            <div onClick={() => setNavbarOpen(!isNavbarOpen)}>
+                {isNavbarOpen ?
+                    <div className="flex lg:hidden">
+                        <GiHamburgerMenu size={29} />
+                    </div>
+                    :
+                    <div className="flex lg:hidden">
+                        <IoMdClose size={25} />
+                    </div>
+                }
             </div>
             <MobileNavbar />
         </div>
