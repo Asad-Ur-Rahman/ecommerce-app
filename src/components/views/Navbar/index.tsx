@@ -11,7 +11,6 @@ import { BsCart2 } from 'react-icons/bs';
 import { HiOutlineChevronDown } from "react-icons/hi"
 
 import DropDown from "./subComponents/DropDown";
-// import MobileNavbar from "./subComponents/MobileNavbar";
 import Expand from './subComponents/Expand';
 
 const Navbar = () => {
