@@ -11,7 +11,8 @@ import { BsCart2 } from 'react-icons/bs';
 import { HiOutlineChevronDown } from "react-icons/hi"
 
 import DropDown from "./subComponents/DropDown";
-import MobileNavbar from "./subComponents/MobileNavbar";
+// import MobileNavbar from "./subComponents/MobileNavbar";
+import Expand from './subComponents/Expand';
 
 const Navbar = () => {
     const [isNavbarOpen, setNavbarOpen] = useState<boolean>(false)
@@ -72,4 +73,19 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+const MobileNavbar = () => {
+
+    return (
+        <div>
+            <div className='w-full px-6 py-4 bg-gray-100'>
+                {
+                    NavbarArray.map((item: NavbarItemType, index: number) => (
+                        <Expand key={index} item={item} index={index} />
+                    ))
+                }
+            </div>
+        </div>
+    )
+}
 
