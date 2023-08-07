@@ -60,7 +60,10 @@ const Navbar = () => {
                     </div>
                 }
             </div>
-            <MobileNavbar />
+            {
+
+                isNavbarOpen && <MobileNavbar />
+            }
         </div>
     )
 }
