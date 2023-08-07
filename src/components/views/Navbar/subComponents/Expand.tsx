@@ -6,11 +6,19 @@ import { NavbarArray, NavbarItemType } from "@/components/utils/NavbarArrayAndTy
 import { HiOutlineChevronDown } from "react-icons/hi"
 
 
-const Expand: FC<{ item: NavbarItemType, index: number}> = ({ item, index}) => {
+const Expand: FC<{ item: NavbarItemType, index: number }> = ({ item, index }) => {
     const [isExpended, setExpended] = useState(false)
+    const [isTimeOut, setTimeOut] = useState(false)
+
+    function handleExpand() {
+        setExpended(!isExpended);
+        setTimeout(() => {
+            setTimeOut(!isTimeOut);
+        }, 100);
+    }
     return (
-        <li className={`${isExpended ? 'h-48' : 'h-12'} list-none`}>
-            <div className="py-2 px-3 flex items-center justify-between rounded-md duration-300 hover:bg-purple-600" onClick={() => setExpended(!isExpended)}>
+        <li className={`${isExpended ? 'h-48' : 'h-12'} list-none duration-300`}>
+            <div className="py-2 px-3 flex items-center justify-between rounded-md duration-300 hover:bg-purple-600" onClick={handleExpand}>
 
                 <Link href={item.href}>
                     {item.label}
