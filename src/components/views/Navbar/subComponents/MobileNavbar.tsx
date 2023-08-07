@@ -8,7 +8,7 @@ const MobileNavbar = () => {
             <div className='w-full px-6 py-4 bg-gray-100'>
                 {
                     NavbarArray.map((item: NavbarItemType, index: number) => (
-                        <Expand item={item} />
+                        <Expand item={item} index={index} />
                     ))
                 }
             </div>

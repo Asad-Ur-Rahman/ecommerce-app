@@ -6,7 +6,7 @@ import { NavbarArray, NavbarItemType } from "@/components/utils/NavbarArrayAndTy
 import { HiOutlineChevronDown } from "react-icons/hi"
 
 
-const Expand: FC<{ item: NavbarItemType }> = ({ item }) => {
+const Expand: FC<{ item: NavbarItemType, index: number}> = ({ item, index}) => {
     const [isExpended, setExpended] = useState(false)
     return (
         <li className={`${isExpended ? 'h-48' : 'h-12'} list-none`}>
@@ -21,7 +21,7 @@ const Expand: FC<{ item: NavbarItemType }> = ({ item }) => {
 
                 {
                     isExpended &&
-                    item.dropDownData?.map((subItem: NavbarItemType, index: number) => (
+                    item.dropDownData?.map((subItem: NavbarItemType) => (
                         <Link href={subItem.href} className="hover:bg-gray-50 duration-300 px-5 py-1 rounded-md">{subItem.label}
                         </Link>
                     ))}
