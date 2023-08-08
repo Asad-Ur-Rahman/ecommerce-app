@@ -1,6 +1,9 @@
+import Hero from "@/components/views/Hero";
 
 export default function Home() {
   return (
-    <div>Hello world!</div>
+    <div>
+      <Hero />
+    </div>
   )
 }
