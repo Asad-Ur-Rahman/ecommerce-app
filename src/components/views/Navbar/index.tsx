@@ -41,7 +41,7 @@ const Navbar = () => {
                         <BiSearch />
                         <input
                             type="text"
-                            className="pl-1 pr-5 py-1 w-80 flex-grow"
+                            className="focus:outline-none pl-1 pr-5 py-1 w-80 flex-grow"
                             placeholder="Search in our store"
                         />
                     </div>
