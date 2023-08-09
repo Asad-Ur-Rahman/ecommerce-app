@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <div className="py-5 flex justify-between items-center">
             {/* right side */}
-            <div className="space-y-5 max-w-sm">
+            <div className="space-y-6 max-w-sm">
                 <button
                     aria-label="redirect the user to sale page"
                     className="rounded-md bg-primaryWhite text-blue-700 px-3 py-1 font-medium"
@@ -21,7 +21,7 @@ const Hero = () => {
                 <p className="text-gray-700">Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits.</p>
                 <button
                     aria-label="redirect the user to sale page"
-                    className="flex gap-1 rounded-sm text-lg ring-1 ring-slate-800 bg-gray-900 py-3 px-5 text-white font-semibold"
+                    className="flex gap-1 rounded-sm text-lg ring-1 ring-slate-800 bg-gray-900 py-3 px-5 ml-1 text-white font-semibold"
                 >
                     <BsCart2 size={24} />
                     <p className="text-primaryWhite whitespace-pre leading-4">
