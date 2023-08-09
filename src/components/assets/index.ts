@@ -1,2 +1,6 @@
 export {default as heroGirlimg} from "./Images/HeroGirlimg.webp"
 export {default as PreLoader} from "./Images/Preloader.gif"
+export {default as bazaar} from "./Images/bazaar.webp"
+export {default as bustle} from "./Images/bustle.webp"
+export {default as versace} from "./Images/versace.webp"
+export {default as inStyle} from "./Images/instyle.webp"
