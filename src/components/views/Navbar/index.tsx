@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className='sticky top-0 bg-white z-70'>
             <div className="py-5 flex justify-between items-center space-x-12">
                 <div className="w-36 flex-shrink-0">
-                    <Image width={500} height={500} src={"/logo.webp"} alt="logo" />
+                    <Image width={500} height={500} src={"./logo.webp"} alt="logo" />
                 </div>
                 <div className="hidden lg:flex justify-between items-center w-full">
                     <ul className="flex space-x-5 font-medium text-lg text-purple-950">
