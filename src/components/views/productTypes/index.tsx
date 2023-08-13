@@ -1,4 +1,4 @@
-import { event1, event2 } from "@/components/assets"
+import { event1, event2, event3 } from "@/components/assets"
 import Image from "next/image"
 
 
@@ -27,12 +27,21 @@ const ProductsTypes = () => {
           <div className="p-4">
             <p>Flex Sweatshirt</p>
             <p className=" text-lg"> <del>$100.00</del> <strong>$75.00</strong></p>
-            </div>
+          </div>
           <div className="w-62">
             <Image width={1000} height={1000} src={event2} alt="sweaters" />
           </div>
         </div>
-        <div className='w-full row-span-2 h-full bg-cat4'></div>
+
+        <div className='w-full row-span-2 h-full bg-cat4'>
+          <div className="p-4">
+            <p>Flex Push Button Bomber</p>
+            <p className=" text-lg"> <del>$225.00</del> <strong>$190.00</strong></p>
+          </div>
+          <div className="w-62">
+            <Image width={1000} height={1000} src={event3} alt="sweaters" />
+          </div>
+        </div>
         <div className='w-full col-span-2 h-28 bg-cat2'></div>
       </div>
 
