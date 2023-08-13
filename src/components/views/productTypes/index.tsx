@@ -42,12 +42,12 @@ const ProductsTypes = () => {
             <Image width={1000} height={1000} src={event3} alt="sweaters" />
           </div>
         </div>
-        <div className='w-full col-span-2 h-28 bg-cat2 flex flex-col justify-center items-center text-white space-y-3'>
+        <div className='py-4 w-full col-span-2 bg-cat2 flex flex-col justify-center items-center text-white space-y-3'>
           <h5 className="font-extrabold text-4xl">GET 30% Off</h5>
           <p>USE PROMO CODE</p>
           <button
           aria-label="Redirect user to Dine Week End sale"
-          className="py-1 px6 bg-gray-600 rounded-lg">
+          className="py-1 px-8 text-lg font-medium bg-[#474747] rounded-lg tracking-widest">
             DINEWEEKENDSALE
             </button>
         </div>
