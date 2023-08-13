@@ -26,7 +26,7 @@ const ProductsTypes = () => {
         <div className='w-full row-span-2 h-full bg-cat3'>
           <div className="p-4">
             <p>Flex Sweatshirt</p>
-            <p> <del>$100.00</del> <strong>$75.00</strong></p>
+            <p className=" text-lg"> <del>$100.00</del> <strong>$75.00</strong></p>
             </div>
           <div className="w-62">
             <Image width={1000} height={1000} src={event2} alt="sweaters" />
