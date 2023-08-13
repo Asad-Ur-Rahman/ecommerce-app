@@ -11,12 +11,12 @@ const ProductsTypes = () => {
       </div>
 
       <div className=' grid grid-cols-4'>
-        <div className='w-16 bg-gray-400'></div>
-        <div className='w-16 bg-purple-400'></div>
-        <div className='w-16 bg-gray-800'></div>
-        <div className='w-16 bg-yellow-500'></div>
-        <div className='w-16 bg-gray-300'></div>
-        <div className='w-16 bg-gray-900'></div>
+        <div className='w-full row-span-2 h-15 bg-gray-400'></div>
+        <div className='w-full h-12 bg-purple-400'></div>
+        <div className='w-full h-12 bg-gray-800'></div>
+        <div className='w-full h-12 bg-yellow-500'></div>
+        <div className='w-full h-12 bg-gray-300'></div>
+        <div className='w-full h-12 bg-gray-900'></div>
       </div>
 
     </div>
