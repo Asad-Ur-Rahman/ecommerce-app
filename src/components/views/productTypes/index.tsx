@@ -10,7 +10,7 @@ const ProductsTypes = () => {
 
       </div>
 
-      <div className=' grid grid-cols-4 gap-4'>
+      <div className=' grid grid-cols-4 gap-5 px-2'>
         <div className='w-full col-span-2 h-28 bg-gray-400'></div>
         <div className='w-full row-span-2 h-full bg-purple-400'></div>
         <div className='w-full row-span-2 h-full bg-gray-800'></div>
