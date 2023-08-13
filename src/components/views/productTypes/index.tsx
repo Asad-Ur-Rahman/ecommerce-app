@@ -42,7 +42,11 @@ const ProductsTypes = () => {
             <Image width={1000} height={1000} src={event3} alt="sweaters" />
           </div>
         </div>
-        <div className='w-full col-span-2 h-28 bg-cat2'></div>
+        <div className='w-full col-span-2 h-28 bg-cat2 flex flex-col justify-center items-center text-white'>
+          <h5 className="font-extrabold text-4xl">GET 30% Off</h5>
+          <p>USE PROMO CODE</p>
+          <button>DINEWEEKENDSALE</button>
+        </div>
       </div>
 
     </div>
