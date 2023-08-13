@@ -15,9 +15,9 @@ const ProductsTypes = () => {
           <div></div>
           <div></div>
         </div>
-        <div className='w-full row-span-2 h-full bg-cat2'></div>
         <div className='w-full row-span-2 h-full bg-cat3'></div>
-        <div className='w-full col-span-2 h-28 bg-cat4'></div>
+        <div className='w-full row-span-2 h-full bg-cat4'></div>
+        <div className='w-full col-span-2 h-28 bg-cat2'></div>
       </div>
 
     </div>
