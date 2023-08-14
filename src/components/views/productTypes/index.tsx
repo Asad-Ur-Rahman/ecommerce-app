@@ -14,7 +14,7 @@ const ProductsTypes = () => {
 
       <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-2 text-gray-800'>
 
-        <div className='w-full flex flex-col items-center justify-between md:flex-row col-span-1 md:col-span-2 bg-cat1 px-12'>
+        <div className='w-full flex flex-col items-center justify-between sm:flex-row col-span-1 md:col-span-2 bg-cat1 px-12'>
           <div className='max-w-[13rem] py-8'>
             <h4 className='text-3xl font-extrabold'>GET UP TO 60%</h4>
             <p className='text-xl'>For the summer season</p>
