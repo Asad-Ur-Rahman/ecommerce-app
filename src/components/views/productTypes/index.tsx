@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const ProductsTypes = () => {
   return (
-    <div className='py-16 px-2'>
+    <div className='py-16 px-2 space-y-5'>
       <div className='text-center space-y-3'>
 
         <p className='text-blue-800 text-sm'>PROMOTIONS</p>
