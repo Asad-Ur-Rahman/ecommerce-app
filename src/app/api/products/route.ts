@@ -1,5 +1,10 @@
 import { NextResponse } from "next/server";
 
 async function GET() {
-    return NextResponse.json({message: "Hi"})
+    try {
+        return NextResponse.json({message: "Hi"})
+        
+    } catch (error) {
+        return NextResponse.json({message: "failed"})
+    }
 }
