@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-async function GET() {
+export async function GET() {
     try {
         return NextResponse.json({message: "Hi"})
         
