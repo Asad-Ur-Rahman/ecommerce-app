@@ -2,7 +2,7 @@ import { event1, event2, event3 } from "@/components/assets"
 import Image from "next/image"
 
 
-const ProductsTypes = () => {
+const ProductsType = () => {
   return (
     <div className='py-16 px-2 space-y-5'>
 
@@ -75,4 +75,4 @@ const ProductsTypes = () => {
   )
 }
 
-export default ProductsTypes
+export default ProductsType
