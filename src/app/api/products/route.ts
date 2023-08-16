@@ -10,7 +10,9 @@ const client = createClient({
 
 export async function GET() {
     try {
-        return NextResponse.json({message: "Hi"})
+        let response = await client.fetch(`*[_type == "products"]`)
+        console.log(response)
+        return NextResponse.json({response})
         
     } catch (error) {
         console.log((error as { message: string}).message)
