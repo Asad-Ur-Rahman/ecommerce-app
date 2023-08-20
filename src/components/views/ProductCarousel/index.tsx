@@ -3,9 +3,10 @@ import { FC } from "react"
 import Card from "../Card"
 
 const ProductCarousel: FC<{ ProductData: Array<oneProductType> }> = ({ ProductData }) => {
-  console.log(ProductData)
+
+
   return (
-    <div>
+    <div className="grid">
       {
         ProductData.map((item: oneProductType, index: number)=> (
 
