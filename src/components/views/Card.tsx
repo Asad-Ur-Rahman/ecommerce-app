@@ -12,11 +12,11 @@ function urlFor(source: any) {
 
 const Card: FC<{ singleProductData: oneProductType }> = ({ singleProductData }) => {
     
-    console.log(urlFor(singleProductData.image[0]).width(500).url())
+    // console.log(urlFor(singleProductData.image[0]).width(500).url())
     return (
         <div className=' border-4'>
             <div>
-                <Image src='/Logo.webp' alt='' width={500} height={500} />
+                <Image src={urlFor(singleProductData.image[0]).width(500).url()} alt='' width={500} height={500} />
             </div>
         </div>
     )
