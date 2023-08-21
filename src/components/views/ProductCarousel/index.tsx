@@ -32,7 +32,7 @@ export default class ProductCarousel extends Component<{ ProductData: Array<oneP
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
-      // centerMode: true,
+
       responsive: [
         {
           breakpoint: 1024,
@@ -40,7 +40,8 @@ export default class ProductCarousel extends Component<{ ProductData: Array<oneP
             slidesToShow: 1,
             slidesToScroll: 1,
             infinite: false,
-            dots: false
+            dots: false,
+            // centerMode: true
           }
         }
       ]
