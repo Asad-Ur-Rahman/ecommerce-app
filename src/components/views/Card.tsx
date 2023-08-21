@@ -13,7 +13,7 @@ function urlFor(source: any) {
 const Card: FC<{ singleProductData: oneProductType }> = ({ singleProductData }) => {
     
     // console.log(urlFor(singleProductData.image[0]).width(500).url())
-    console.log(singleProductData.description)
+    // console.log(singleProductData.description)
     return (
         <div className=' border-4 max-w-sm min-[24rem] space-y-3'>
             <div className='w-full'>
