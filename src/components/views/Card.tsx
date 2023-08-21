@@ -11,13 +11,10 @@ function urlFor(source: any) {
 }
 
 const Card: FC<{ singleProductData: oneProductType }> = ({ singleProductData }) => {
-    
-    // console.log(urlFor(singleProductData.image[0]).width(500).url())
-    // console.log(singleProductData.description)
     return (
         <div className=' border-4 max-w-sm min-w-[24rem] space-y-3'>
             <div className='relative w-full'>
-                <div className=''/>
+                <div className='absolute inset-0'/>
                 <Image src={urlFor(singleProductData.image[0]).width(1000).height(1000).url()} alt={singleProductData.image[0].alt} width={500} height={500} />
             </div>
             <div className='space-y-1 text-gray-600 font-semibold text-lg'>
