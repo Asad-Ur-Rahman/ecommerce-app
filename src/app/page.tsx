@@ -2,6 +2,7 @@ import BASE_PATH_FORAPI from "@/components/shared/BasePath";
 import { responseType } from "@/components/utils/ProductsDataArrayAndType";
 import Hero from "@/components/views/Hero";
 import Jewellery from "@/components/views/Jewellery";
+import Newsletter from "@/components/views/NewsLetter";
 import ProductCarousel from "@/components/views/ProductCarousel";
 import ProductsType from "@/components/views/ProductTypes";
 
@@ -27,6 +28,7 @@ export default async function Home() {
       <ProductsType />
       <ProductCarousel ProductData={result} />
       <Jewellery />
+      <Newsletter />
     </div>
   )
 }
