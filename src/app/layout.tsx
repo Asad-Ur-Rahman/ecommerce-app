@@ -11,7 +11,7 @@ const inter = Maven_Pro({
 
 export const metadata: Metadata = {
   title: 'Dine Market',
-  description: '',
+  description: 'by Alien 👽',
 }
 
 export default function RootLayout({
