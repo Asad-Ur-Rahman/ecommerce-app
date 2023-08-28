@@ -7,24 +7,24 @@ const Hero = () => {
     const btnText = "Start \n shopping";
 
     return (
-        <div className="py-5 flex justify-between items-center">
+        <div className="py-5 flex justify-between items-center px-2">
             {/* right side */}
             <div className="space-y-6 max-w-sm">
                 <button
                     aria-label="redirect the user to sale page"
-                    className="rounded-md bg-primaryWhite text-blue-700 px-3 py-1 font-medium"
+                    className="rounded-md bg-primaryWhite text-blue-700 px-4 py-2 font-medium"
                 >
                     Sale 70%
                 </button>
 
-                <h1 className="text-4xl md:text-xl text-gray-800 font-bold">An Industrial Take on Streetwear</h1>
+                <h1 className="text-4xl md:text-6xl text-gray-800 font-bold">An Industrial Take on Streetwear</h1>
                 <p className="text-gray-700">Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits.</p>
                 <button
                     aria-label="redirect the user to sale page"
-                    className="flex gap-1 rounded-sm text-lg ring-1 ring-slate-800 bg-gray-900 py-3 px-5 ml-1 text-white font-semibold"
+                    className="flex gap-3 items-center rounded-sm text-lg ring-1 ring-slate-800 bg-gray-800 py-3 px-5 text-white font-semibold"
                 >
                     <BsCart2 size={24} />
-                    <p className="text-primaryWhite whitespace-pre leading-4">
+                    <p className="whitespace-pre leading-4">
 
                         {btnText}
                     </p>
