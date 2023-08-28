@@ -4,7 +4,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: "https",
-                hostname: "full-stack-ecommerce-clothing-web.vercel.app",
+                hostname: "ecommerce-hackathon-ar.vercel.app",
                 port: "",
                 pathname: "/**",
             },

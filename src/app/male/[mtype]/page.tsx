@@ -1,6 +1,6 @@
 import { oneProductType, responseType } from "@/components/utils/ProductsDataArrayAndType";
 import CardAll from "@/components/views/CardAll";
-import { FC } from "react"
+
 
 async function fetchAllProductsData() {
     let res = await fetch(`https://${process.env.NEXT_PUBLIC_SANITY_PROJECT_ID}.api.sanity.io/v2023-08-10/data/query/production?query=*%5B_type+%3D%3D+%22products%22+%26%26+productTypes%5B1%5D+%3D%3D+%22Male%22%5D`, {
