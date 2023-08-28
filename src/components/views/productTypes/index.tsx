@@ -60,7 +60,7 @@ const ProductsType = () => {
 
         {/* fourth grid */}
         <div className='py-9 text-white w-full col-auto md:col-span-2 bg-cat2 flex flex-col justify-center items-center space-y-3'>
-          <h5 className="font-extrabold text-4xl">GET 30% Off</h5>
+          <h3 className="font-extrabold text-4xl">GET 30% Off</h3>
           <p>USE PROMO CODE</p>
           <button
           aria-label="Redirect user to Dine Week End sale"
