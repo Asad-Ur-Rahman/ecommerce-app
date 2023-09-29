@@ -1,4 +1,5 @@
 import BASE_PATH_FORAPI from "@/components/shared/BasePath"
+import { oneProductType } from "@/components/utils/ProductsDataArrayAndType";
 import AllProductsCompo from "@/components/views/AllProduct";
 
 async function fetchAllProductData() {
@@ -17,7 +18,10 @@ async function fetchAllProductData() {
 const Products = async () => {
     const ProdutcData = await fetchAllProductData()
     return (
-        <AllProductsCompo ProdutcData={ProdutcData} />
+        <AllProductsCompo ProdutcData={ProdutcData}/>
+        
+
+
     )
 }
 
