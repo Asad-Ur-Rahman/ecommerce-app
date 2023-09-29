@@ -52,7 +52,8 @@ export default class AllProductsCompo extends Component<{ ProdutcData: propsType
                 }
                 className="content-center justify-center grid grid-cols-2 md:grid-cols-3 py-10 lg:grid-cols-4 gap-4"
             >
-                {this.state.items.map((item: oneProductType, index: number) => (
+                {
+                this.state.items.map((item: oneProductType, index: number) => (
                     <CardAll key={index} singleProductData={item} />
                 ))}
             </InfiniteScroll>
